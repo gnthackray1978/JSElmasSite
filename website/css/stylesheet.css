@@ -1,0 +1,413 @@
+
+.aboutrow{
+    /*border-left: 0px;*/
+    padding-left:0px;
+}
+
+/*HOMEPAGE GALLERY HOVER*/
+.gallery-image {
+    width: 300px;
+    height: 227px;
+    display: inline-block;
+    /*background: transparent url('/images/strad_feat2.png');*/
+    /*background-size: 300px 227px;*/
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.gallery-image:hover {
+   background:transparent url('/images/strad_feat1.png');
+   background-size: 300px 227px;
+   background-repeat: no-repeat;
+   vertical-align: middle;
+}
+
+.g1-image{
+    background: transparent url('/images/strad_feat1.png');
+    background-size: 300px 227px;
+}
+
+.g2-image{
+    background: transparent url('/images/strad_feat2.png');
+    background-size: 300px 227px;
+}
+
+.g3-image{
+    background: transparent url('/images/strad_feat3.png');
+    background-size: 300px 227px;
+}
+
+.g4-image{
+    background: transparent url('/images/strad_feat4.png');
+    background-size: 300px 227px;
+}
+
+.thumb{
+    max-width : 300px;
+    max-height: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#image {
+    max-width: 10%;
+    max-height: 10%;
+    transform: scale(10);
+}
+
+/*.col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12 {*/
+   
+/*    padding-right: 1px;*/
+/*    padding-left: 1px*/
+/*}*/
+
+.col{
+    margin-top: 5px;
+    position:relative;
+    display:inline-block;
+   /*filter: alpha(opacity=100);  For IE8 and earlier */
+}   
+
+.col:hover {
+    /* filter: alpha(opacity=50); For IE8 and earlier 
+    text-decoration: none;*/
+    background-image: url("/images/strad_feat4.png");
+} 
+
+/*
+.thumb:hover {
+    /* filter: alpha(opacity=50); For IE8 and earlier 
+    text-decoration: none;
+    background-image: url("/images/strad_feat4.png");} */
+    
+    
+    
+/*BODY STYLE*/
+b{
+    color: purple;
+}
+
+.imagetable {
+    margin-left: 12px;
+}
+
+.project {
+    height:420px;
+    width:auto;
+    margin-right: 10px;
+    margin-top: 12px;
+    padding:2px;
+    border:1px solid #E8E8E8;
+}
+
+.title {
+    font-family: Playfair Display, serif;
+    text-transform: uppercase;
+    /*letter-spacing: 0.4px;*/
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+    font-style: normal
+}
+
+
+
+h1{
+    font-family: Playfair Display, serif;
+    /*<link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>";*/
+    text-transform: uppercase;
+    /*letter-spacing: 0.4px;*/
+    font-size: 10px;
+    color:#000000;
+    text-align: left;
+    font-weight: 500;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+
+h2{
+    font-family: Playfair Display, serif;
+    /*text-transform: uppercase;*/
+    letter-spacing: 0.4px;
+    color: #ADADAD;
+    font-size: 8.5px;
+    font-style: italic;
+    text-align: left;
+    font-weight: 500;
+    margin-top: -5px;
+    margin-left: 0px;
+}
+
+/*
+p{
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;
+    color: black;
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+    font-size: 10px;
+    text-align: left;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-left: 0px;
+    width:350px;
+    height: auto;
+}
+*/
+
+
+
+/*MASTHEAD STYLE*/
+#header {
+    margin-top: 0px;
+	/*margin-bottom: 50px;*/
+	height: 100px;
+	margin-left: 0px;
+}
+
+#navbar {
+	/*position: fixed;  bs grid can do this so we can remove it */ 
+	top:10px;
+	/*left:50%;bs grid can do this so we can remove it */
+	/*margin-left:-254px;bs grid can do this so we can remove it */
+	text-align: right;
+	margin-left: 0px;
+	margin-top: 27px;
+}
+
+
+ul{
+    margin: 0; 
+    padding: 0;
+}
+
+li {
+	display: inline;
+	font-family: lato, sans-serif;
+	font-weight: 400;
+	text-transform: none /*uppercase;*/;
+	font-size: 10px;
+	letter-spacing: 0.1px;
+	/*color: #2B17BF;*/
+	/*color: #FD43BD*/
+	/*#5C5C5C*/;
+	padding: 3px;
+}
+
+/*MENU STATES/*
+/* unvisited link */
+a:link {
+    color: #2B2B2B;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #2B17BF;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FD43BD;
+    text-decoration: none;
+    /*background-color: #2B17BF;*/
+    padding:0.3;
+}
+
+/* selected link */
+a:active {
+    color: #2B17BF;
+    text-decoration: none;
+    /*background-color: #2B17BF;*/
+    padding:0.3;
+}
+
+
+#footer{
+	/*height: 50px; 
+	background: white;
+	position: absolute; tells the browser to position #footer relative to #wrapper*/
+	/*bottom: 3; /*#sticks the footer 3px above the bottom edges of the #wrapper div
+	width: inherit;
+	text-align: center;*/
+	
+	
+    font-family: lato, sans-serif;
+    font-size: 8px;
+    font-weight: 300;
+    color: #CECECF;
+    letter-spacing: 0.3px;
+    margin-left: -20px;
+    margin-top: 0px;
+    padding-left: 0px;
+    width:450px;"
+    height:30px;
+    position:absolute;
+	display: inline-block;
+    bottom:10px;
+    left:0px;
+    background: transparent;
+}
+
+.socialicons {
+    height: 23px; 
+    width: 123px; 
+    margin-left: 30px;
+}
+
+#wrapper{
+	min-height:100%;
+    position:relative;
+}
+
+/*PROJECTS PAGES*/
+#projectdescription { 
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;*/
+    color: black;
+    /*letter-spacing: 0.1px;*/
+    line-height: 1.5em;
+    font-size: 10px;
+    text-align: left;
+    font-weight: 300;
+    top: 10px;
+    /*margin-top: 0px;*/
+    margin-left: 13px;
+    width:350px;
+    height: auto;
+}
+
+#copyright {
+    font-family: lato, sans-serif;
+    font-size: 9.5px;
+    font-weight: 300;
+    color: #6B6B6B;
+    letter-spacing: 0.3px;
+    margin-left: 28px;
+    margin-top: 0px;
+    padding-left: 0px;
+    width:500px;
+}
+
+
+
+
+
+/*ABOUT PAGE*/
+
+/*div p {
+    display: inline-block;
+	position: relative;
+	width: 340px;
+}
+*/
+
+#aboutcopy {
+    margin-right:20px;
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;*/
+    color: black;
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+    font-size: 10px;
+    text-align: left;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-left: 0px;
+    width:350px;
+    height: auto;
+}
+
+.abouttable {
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;*/
+    color: black;
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0px;
+    margin-right: 20px;
+    height: auto;
+    display: inline-block;
+	position: relative;
+}
+    /*cursor: auto;
+    background: none repeat scroll 0% 0% #FFF;
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    width: 340px;
+    bottom: -168px;
+    padding: 0px;
+    height: 158px;
+    max-height: 158px;*/
+}
+
+.aboutcopyfirst {
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;*/
+    color: black;
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+    font-size: 11px;
+    font-weight: normal;
+    margin-top: 0px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+
+
+/*
+p{
+    font-family:lato, sans-serif;
+    font-size: 9px;
+    color: #E5E5E6;
+    margin-left: 10px;
+    margin-top: 100px;
+}*/
+/*.project {
+    /*display:inline-block;
+    padding: 15px;
+    max-height:464px;
+    /*max-width:345px;
+    margin-left: 10px;
+    border: single ;
+}*/
+
+
+/*
+
+h1{
+    style ="font-family: Playfair Display, serif;
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>";
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    font-size: 15px;
+    text-align: left;
+    line-height: 10.6em;
+    font-weight: 500;
+    font-style: normal
+}
+
+#nav-link{
+    font-family:lato, sans-serif;
+    font-size: 10px;
+}
+#header {
+	height: 300px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #308014;
+	float: left;
+	
+}/*
+

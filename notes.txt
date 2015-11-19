@@ -1,0 +1,15 @@
+Adding a file
+=============
+
+in the terminal
+git add .
+
+git commit -m 'message'
+
+checking git status
+===================
+
+in the terminal
+
+git status
+
